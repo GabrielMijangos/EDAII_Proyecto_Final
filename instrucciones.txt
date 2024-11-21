@@ -1,0 +1,82 @@
+README:
+
+1.Para Windows (en terminal):
+
+	a) Instalar libyaml: 
+
+		Antes de compilar el programa, asegúrate de instalar o tener instalada la biblioteca libyaml.
+
+		También es importante que verifiques que en el directorio donde estan los archivos fuente de tu proyecto, tengas una copia de yaml.dll
+
+
+	b) Compilar:
+
+		Para compilar, usa el siguiente comando (asegúrate de reemplazar las rutas con las correspondientes a tu sistema):
+
+		gcc -Wall -std=c99 -fopenmp -I C:\ruta\a\vcpkg\installed\x64-windows\include -L C:\ruta\a\vcpkg\installed\x64-windows\lib -o salidaPF.out main.c deserializar_datos.c serializar_datos.c hash_pedidos.c hash_clientes.c hash_menus.c hash_alimentos.c -lyaml
+	
+		Reemplaza C:\ruta\a\vcpkg con la ruta real donde tienes instalado vcpkg.
+
+		Por ejemplo: Si vcpkg.exe está ubicado en: C:\Users\TuUsuario\vcpkg\vcpkg.exe
+
+		Entonces el comando para compilar sería:
+		
+		gcc -Wall -std=c99 -fopenmp -I C:\Users\TuUsuario\vcpkg\installed\x64-windows\include -L C:\Users\TuUsuario\vcpkg\installed\x64-windows\lib -o salidaPF.out main.c deserializar_datos.c serializar_datos.c hash_pedidos.c hash_clientes.c hash_menus.c hash_alimentos.c -lyaml
+
+	
+	c) Ejecutar el programa:	
+
+		Una vez compilado, ejecuta el archivo generado (salidaPF.out) desde la consola con: salidaPF.out
+
+	1.1. En dado caso que no se deseé o no puedas instalar libyaml:
+
+		a) En el archivo llamado "main.c", comenta o elimina la linea 26, la cual dice: #include "serializar_datos.h"
+
+		b) Cambia el comando de compilacion por:	
+
+		gcc -Wall -std=c99 -fopenmp -o salidaPF.out main.c serializar_datos.c hash_pedidos.c hash_clientes.c hash_menus.c hash_alimentos.c
+
+2. Para Linux:
+
+	a) Asegúrate de tener instalado el compilador gcc.	
+
+	b) Instalar libyaml:
+	
+		Necesitarás esta biblioteca para trabajar con archivos YAML
+
+		También es importante que verifiques que en el directorio donde estan los archivos fuente de tu proyecto, tengas una copia de yaml.dll
+
+	c) Asegúrate de que todos los archivos fuente (*.c y *.h) de tu proyecto estén en el mismo directorio o bien organiza subdirectorios para una estructura más limpia (por ejemplo, src/ para código fuente).
+	
+	d) Navega al directorio donde están los archivos del proyecto.
+	
+	e) Ejecuta el comando de compilación:
+	
+		Si todos los archivos están en el mismo directorio:
+		
+		gcc -Wall -std=c99 -fopenmp -o salidaPF.out main.c deserializar_datos.c serializar_datos.c hash_pedidos.c hash_clientes.c hash_menus.c hash_alimentos.c -lyaml
+
+		Si tienes subdirectorios (por ejemplo, src/):
+		
+		gcc -Wall -std=c99 -fopenmp -o salidaPF.out src/main.c src/deserializar_datos.c src/serializar_datos.c src/hash_pedidos.c src/hash_clientes.c src/hash_menus.c src/hash_alimentos.c -lyaml
+	
+	f) Ejecutar el programa:
+
+		Una vez compilado, ejecuta el archivo generado (salidaPF.out) desde la consola con: ./salidaPF.out 
+
+	2.1. En dado caso que no se deseé o no se pueda instalar libyaml:
+	
+		a) En el archivo llamado "main.c", comenta o elimina la linea 26, la cual dice: #include "serializar_datos.h"
+
+		b) Cambia el comando de compilacion por:
+
+			Si todos los archivos están en el mismo directorio:
+			
+			gcc -Wall -std=c99 -fopenmp -o salidaPF.out main.c serializar_datos.c hash_pedidos.c hash_clientes.c hash_menus.c hash_alimentos.c
+			
+			Si tienes subdirectorios (por ejemplo, src/):
+		
+			gcc -Wall -std=c99 -fopenmp -o salidaPF.out src/main.c src/serializar_datos.c src/hash_pedidos.c src/hash_clientes.c src/hash_menus.c src/hash_alimentos.c
+
+
+

@@ -1,0 +1,526 @@
+---
+alimentos:
+  - id: 1
+    nombre: "Manzana Roja"
+    precio: 15.50
+    disponible: "Si"
+  - id: 2
+    nombre: "Plátano Maduro"
+    precio: 12.00
+    disponible: "No"
+  - id: 3
+    nombre: "Zanahoria Fresca"
+    precio: 8.75
+    disponible: "Si"
+  - id: 4
+    nombre: "Berenjena"
+    precio: 22.30
+    disponible: "Si"
+  - id: 5
+    nombre: "Ensalada César"
+    precio: 50.00
+    disponible: "No"
+  - id: 6
+    nombre: "Sopa de Verduras"
+    precio: 35.75
+    disponible: "Si"
+  - id: 7
+    nombre: "Arroz a la Mexicana"
+    precio: 18.00
+    disponible: "Si"
+  - id: 8
+    nombre: "Tacos de Barbacoa"
+    precio: 75.00
+    disponible: "No"
+  - id: 9
+    nombre: "Pollo Asado"
+    precio: 120.00
+    disponible: "Si"
+  - id: 10
+    nombre: "Chilaquiles Verdes"
+    precio: 65.50
+    disponible: "No"
+  - id: 11
+    nombre: "Tacos al Pastor"
+    precio: 80.00
+    disponible: "Si"
+  - id: 12
+    nombre: "Enchiladas Suizas"
+    precio: 95.50
+    disponible: "No"
+  - id: 13
+    nombre: "Pozole Rojo"
+    precio: 120.00
+    disponible: "Si"
+  - id: 14
+    nombre: "Flautas de Pollo"
+    precio: 65.00
+    disponible: "Si"
+  - id: 15
+    nombre: "Guacamole"
+    precio: 50.25
+    disponible: "Si"
+  - id: 16
+    nombre: "Sopa Azteca"
+    precio: 45.00
+    disponible: "No"
+  - id: 17
+    nombre: "Chiles Rellenos"
+    precio: 85.75
+    disponible: "Si"
+  - id: 18
+    nombre: "Tortilla Española"
+    precio: 70.00
+    disponible: "Si"
+  - id: 19
+    nombre: "Hamburguesa de Res"
+    precio: 110.50
+    disponible: "No"
+  - id: 20
+    nombre: "Pizza Margarita"
+    precio: 130.00
+    disponible: "Si"
+  - id: 21
+    nombre: "Lasagna"
+    precio: 140.00
+    disponible: "Si"
+  - id: 22
+    nombre: "Hot Dog"
+    precio: 50.00
+    disponible: "No"
+  - id: 23
+    nombre: "Tamal de Rajas"
+    precio: 25.00
+    disponible: "Si"
+  - id: 24
+    nombre: "Tamal de Mole"
+    precio: 30.00
+    disponible: "Si"
+  - id: 25
+    nombre: "Espagueti a la Boloñesa"
+    precio: 90.00
+    disponible: "No"
+  - id: 26
+    nombre: "Pollo con Mole"
+    precio: 150.00
+    disponible: "Si"
+  - id: 27
+    nombre: "Carne en su Jugo"
+    precio: 125.50
+    disponible: "No"
+  - id: 28
+    nombre: "Quesadilla de Huitlacoche"
+    precio: 45.00
+    disponible: "Si"
+  - id: 29
+    nombre: "Ceviche"
+    precio: 85.75
+    disponible: "Si"
+  - id: 30
+    nombre: "Coctel de Camarón"
+    precio: 95.00
+    disponible: "No"
+  - id: 31
+    nombre: "Tarta de Limón"
+    precio: 65.00
+    disponible: "Si"
+  - id: 32
+    nombre: "Pay de Queso"
+    precio: 70.50
+    disponible: "Si"
+  - id: 33
+    nombre: "Brownie"
+    precio: 55.00
+    disponible: "No"
+  - id: 34
+    nombre: "Helado de Chocolate"
+    precio: 45.00
+    disponible: "Si"
+  - id: 35
+    nombre: "Flan Napolitano"
+    precio: 50.00
+    disponible: "No"
+  - id: 36
+    nombre: "Arrachera Asada"
+    precio: 200.00
+    disponible: "Si"
+  - id: 37
+    nombre: "Salmón a la Parrilla"
+    precio: 220.50
+    disponible: "No"
+  - id: 38
+    nombre: "Tostadas de Tinga"
+    precio: 75.00
+    disponible: "Si"
+  - id: 39
+    nombre: "Pan Francés"
+    precio: 40.00
+    disponible: "No"
+  - id: 40
+    nombre: "Empanadas de Atún"
+    precio: 55.25
+    disponible: "Si"
+  - id: 41
+    nombre: "Pastel Tres Leches"
+    precio: 85.00
+    disponible: "Si"
+  - id: 42
+    nombre: "Sopa de Fideos"
+    precio: 25.00
+    disponible: "No"
+  - id: 43
+    nombre: "Caldo de Res"
+    precio: 150.00
+    disponible: "Si"
+  - id: 44
+    nombre: "Tortas de Papa"
+    precio: 40.75
+    disponible: "Si"
+  - id: 45
+    nombre: "Canelones de Espinaca"
+    precio: 95.50
+    disponible: "No"
+  - id: 46
+    nombre: "Pozole Verde"
+    precio: 120.00
+    disponible: "Si"
+  - id: 47
+    nombre: "Tacos de Canasta"
+    precio: 35.00
+    disponible: "Si"
+  - id: 48
+    nombre: "Gorditas de Chicharrón"
+    precio: 45.00
+    disponible: "No"
+  - id: 49
+    nombre: "Calabacitas con Elote"
+    precio: 50.00
+    disponible: "Si"
+  - id: 50
+    nombre: "Tamal Dulce"
+    precio: 30.50
+    disponible: "Si"
+clientes:
+  - id: 1
+    nombre: "Juan Pérez"
+    telefono: "5551234567"
+  - id: 2
+    nombre: "María López"
+    telefono: "5559876543"
+  - id: 3
+    nombre: "Carlos García"
+    telefono: "5557654321"
+  - id: 4
+    nombre: "Ana Martínez"
+    telefono: "5552345678"
+  - id: 5
+    nombre: "Pedro Sánchez"
+    telefono: "5558765432"
+  - id: 6
+    nombre: "Laura Gómez"
+    telefono: "5553456789"
+  - id: 7
+    nombre: "José Fernández"
+    telefono: "5559876540"
+  - id: 8
+    nombre: "Sofía Ramírez"
+    telefono: "5554567890"
+  - id: 9
+    nombre: "Luis Herrera"
+    telefono: "5551239876"
+  - id: 10
+    nombre: "Lucía Torres"
+    telefono: "5557891234"
+  - id: 11
+    nombre: "Miguel Rodríguez"
+    telefono: "5553216549"
+  - id: 12
+    nombre: "Diana Vargas"
+    telefono: "5556547891"
+  - id: 13
+    nombre: "Gabriel Castro"
+    telefono: "5557894560"
+  - id: 14
+    nombre: "Isabel Morales"
+    telefono: "5559873214"
+  - id: 15
+    nombre: "Ricardo Navarro"
+    telefono: "5552348971"
+  - id: 16
+    nombre: "Fernanda Ruiz"
+    telefono: "5556782345"
+  - id: 17
+    nombre: "Andrés Muñoz"
+    telefono: "5554321987"
+  - id: 18
+    nombre: "Valeria Pineda"
+    telefono: "5555678912"
+  - id: 19
+    nombre: "Emilio Silva"
+    telefono: "5557896543"
+  - id: 20
+    nombre: "Paula Romero"
+    telefono: "5553456781"
+  - id: 21
+    nombre: "Camila Ortega"
+    telefono: "5559873456"
+  - id: 22
+    nombre: "Jorge Peña"
+    telefono: "5551236789"
+  - id: 23
+    nombre: "Elena Salinas"
+    telefono: "5556789123"
+  - id: 24
+    nombre: "Adrián Flores"
+    telefono: "5552347654"
+  - id: 25
+    nombre: "Mónica Rojas"
+    telefono: "5558763219"
+  - id: 26
+    nombre: "Raúl Guzmán"
+    telefono: "5555436789"
+  - id: 27
+    nombre: "Patricia Méndez"
+    telefono: "5556543218"
+  - id: 28
+    nombre: "Iván Delgado"
+    telefono: "5557890123"
+  - id: 29
+    nombre: "Sandra Ávila"
+    telefono: "5556783451"
+  - id: 30
+    nombre: "Alonso Valdez"
+    telefono: "5558901234"
+menus:
+  - id: 1
+    fecha: "2024-11-21"
+    alimentos:
+      - id: 1
+        nombre: "Ensalada César"
+        precio: 45.00
+        disponible: Si
+      - id: 4
+        nombre: "Arroz Blanco"
+        precio: 20.00
+        disponible: Si
+  - id: 2
+    fecha: "2024-11-22"
+    alimentos:
+      - id: 2
+        nombre: "Sopa de Tortilla"
+        precio: 50.00
+        disponible: Si
+      - id: 6
+        nombre: "Bistec con Papas"
+        precio: 110.00
+        disponible: Si
+      - id: 7
+        nombre: "Tacos al Pastor"
+        precio: 35.00
+        disponible: Si
+  - id: 3
+    fecha: "2024-11-23"
+    alimentos:
+      - id: 1
+        nombre: "Ensalada César"
+        precio: 45.00
+        disponible: Si
+      - id: 9
+        nombre: "Pescado Empanizado"
+        precio: 95.00
+        disponible: Si
+  - id: 4
+    fecha: "2024-11-24"
+    alimentos:
+      - id: 4
+        nombre: "Arroz Blanco"
+        precio: 20.00
+        disponible: Si
+      - id: 7
+        nombre: "Tacos al Pastor"
+        precio: 35.00
+        disponible: Si
+      - id: 9
+        nombre: "Pescado Empanizado"
+        precio: 95.00
+        disponible: Si
+  - id: 5
+    fecha: "2024-11-25"
+    alimentos:
+      - id: 2
+        nombre: "Sopa de Tortilla"
+        precio: 50.00
+        disponible: Si
+      - id: 6
+        nombre: "Bistec con Papas"
+        precio: 110.00
+        disponible: Si
+  - id: 6
+    fecha: "2024-11-26"
+    alimentos:
+      - id: 1
+        nombre: "Ensalada César"
+        precio: 45.00
+        disponible: Si
+      - id: 7
+        nombre: "Tacos al Pastor"
+        precio: 35.00
+        disponible: Si
+  - id: 7
+    fecha: "2024-11-27"
+    alimentos:
+      - id: 6
+        nombre: "Bistec con Papas"
+        precio: 110.00
+        disponible: Si
+      - id: 9
+        nombre: "Pescado Empanizado"
+        precio: 95.00
+        disponible: Si
+  - id: 8
+    fecha: "2024-11-28"
+    alimentos:
+      - id: 2
+        nombre: "Sopa de Tortilla"
+        precio: 50.00
+        disponible: Si
+      - id: 4
+        nombre: "Arroz Blanco"
+        precio: 20.00
+        disponible: Si
+      - id: 9
+        nombre: "Pescado Empanizado"
+        precio: 95.00
+        disponible: Si
+  - id: 9
+    fecha: "2024-11-29"
+    alimentos:
+      - id: 1
+        nombre: "Ensalada César"
+        precio: 45.00
+        disponible: Si
+      - id: 6
+        nombre: "Bistec con Papas"
+        precio: 110.00
+        disponible: Si
+      - id: 7
+        nombre: "Tacos al Pastor"
+        precio: 35.00
+        disponible: Si
+  - id: 10
+    fecha: "2024-11-30"
+    alimentos:
+      - id: 2
+        nombre: "Sopa de Tortilla"
+        precio: 50.00
+        disponible: Si
+      - id: 9
+        nombre: "Pescado Empanizado"
+        precio: 95.00
+        disponible: Si
+  - id: 11
+    fecha: "2024-12-01"
+    alimentos:
+      - id: 4
+        nombre: "Arroz Blanco"
+        precio: 20.00
+        disponible: Si
+      - id: 7
+        nombre: "Tacos al Pastor"
+        precio: 35.00
+        disponible: Si
+  - id: 12
+    fecha: "2024-12-02"
+    alimentos:
+      - id: 1
+        nombre: "Ensalada César"
+        precio: 45.00
+        disponible: Si
+      - id: 9
+        nombre: "Pescado Empanizado"
+        precio: 95.00
+        disponible: Si
+  - id: 13
+    fecha: "2024-12-03"
+    alimentos:
+      - id: 2
+        nombre: "Sopa de Tortilla"
+        precio: 50.00
+        disponible: Si
+      - id: 6
+        nombre: "Bistec con Papas"
+        precio: 110.00
+        disponible: Si
+  - id: 14
+    fecha: "2024-12-04"
+    alimentos:
+      - id: 7
+        nombre: "Tacos al Pastor"
+        precio: 35.00
+        disponible: Si
+      - id: 9
+        nombre: "Pescado Empanizado"
+        precio: 95.00
+        disponible: Si
+  - id: 15
+    fecha: "2024-12-05"
+    alimentos:
+      - id: 4
+        nombre: "Arroz Blanco"
+        precio: 20.00
+        disponible: Si
+      - id: 6
+        nombre: "Bistec con Papas"
+        precio: 110.00
+        disponible: Si
+pedidos:
+  - id: 1
+    cliente_id: 1
+    fecha: "2024-12-01"
+    estado: "Pendiente"
+    menus: [1]
+  - id: 2
+    cliente_id: 2
+    fecha: "2024-12-02"
+    estado: "En Proceso"
+    menus: [2, 3]
+  - id: 3
+    cliente_id: 3
+    fecha: "2024-12-03"
+    estado: "Pendiente"
+    menus: [4]
+  - id: 4
+    cliente_id: 4
+    fecha: "2024-12-04"
+    estado: "Completado"
+    menus: [5, 6]
+  - id: 5
+    cliente_id: 5
+    fecha: "2024-12-05"
+    estado: "Pendiente"
+    menus: [1, 3]
+  - id: 6
+    cliente_id: 6
+    fecha: "2024-12-06"
+    estado: "Pendiente"
+    menus: [7]
+  - id: 7
+    cliente_id: 7
+    fecha: "2024-12-07"
+    estado: "En Proceso"
+    menus: [8, 9]
+  - id: 8
+    cliente_id: 8
+    fecha: "2024-12-08"
+    estado: "Completado"
+    menus: [10]
+  - id: 9
+    cliente_id: 9
+    fecha: "2024-12-09"
+    estado: "Pendiente"
+    menus: [11, 12]
+  - id: 10
+    cliente_id: 10
+    fecha: "2024-12-10"
+    estado: "En Proceso"
+    menus: [13, 14, 15]
